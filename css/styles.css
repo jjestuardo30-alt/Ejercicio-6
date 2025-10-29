@@ -3,6 +3,11 @@
   --gap-main: 5px;
 }
 
+.subgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: var(--gap-subgrid);
+}
 
 
 
